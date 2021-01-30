@@ -1,4 +1,14 @@
-n = int(input("Please enter your year: "))
+rpt = 1
+
+while rpt == 1:
+	rpt = 0
+	user_input = input("Please enter your year: ")
+
+	try:
+		n = int(user_input)
+	except:
+		rpt = 1
+		print("Wrong input. Try again.")
 
 if (n % 100 == 0):
     if (n % 400 == 0):
