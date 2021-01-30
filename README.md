@@ -1,1 +1,1 @@
-![Flowchart for Leap Year Program](./flowchart)
+![Flowchart for Leap Year Program](./flowchart.png)
